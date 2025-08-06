@@ -1,0 +1,20 @@
+class main{
+  public static void main(String[] args){
+  int a = 9;
+  if(a%2==0)
+  {
+    System.out.println("even");
+  }  
+  else
+  {
+     System.out.println("odd");
+  }public class printnumbers{
+    public static void main(String[] args){
+   int n=5;
+   System.out.print("output");
+   for(int i=1; i<=n; i++){
+   System.out.print(i++);
+   }
+
+}
+}
