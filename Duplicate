@@ -1,0 +1,23 @@
+
+Here’s a simple Java program to remove duplicates from the given array and print the result.
+
+import java.util.LinkedHashSet;
+
+public class RemoveDuplicates {
+    public static void main(String[] args) {
+        int[] arr = {11, 43, 67, 45, 23, 11, 67, 45};
+
+        // LinkedHashSet maintains order and removes duplicates
+        LinkedHashSet<Integer> set = new LinkedHashSet<>();
+        for (int num : arr) {
+            set.add(num);
+        }
+
+        // Print the result
+        System.out.println("Array without duplicates: " + set);
+    }
+}
+
+
+
+
